@@ -1,0 +1,17 @@
+[Unit]
+Description=Secure Log Receiver (TLS on port 514)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+ExecStart=/usr/local/bin/secure_log_receiver.py
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=secure_log_receiver
+
+[Install]
+WantedBy=multi-user.target
