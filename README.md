@@ -117,6 +117,3 @@ sudo /usr/local/bin/renew_cert.sh
 For more information on integrating SentinelOne with security monitoring systems:
 - [Integrating SentinelOne XDR with Wazuh](https://wazuh.com/blog/integrating-sentinelone-xdr-with-wazuh/)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
